@@ -2,7 +2,7 @@ import card1 from "../public/Images/card1.jpg";
 import card2 from "../public/Images/card2.jpg";
 import card3 from "../public/Images/card3.jpg";
 
-export const CARD = [
+ const CARD = [
     {
         id: 1,
         img: card1,
@@ -22,3 +22,4 @@ export const CARD = [
         text: "We have a systematic approach to the arrangement of life cycle of goods and related activities."
     }
 ]
+export default CARD;
