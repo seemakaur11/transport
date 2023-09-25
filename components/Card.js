@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
-import CARD from '../utility/Card';
+import CARD from '../utility/cards';
 
 const Card = () => {
   return (
