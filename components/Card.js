@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import card1 from "../public/Images/card1.jpg";
-import card2 from "../public/Images/card2.jpg";
-import card3 from "../public/Images/card3.jpg";
 import Image from 'next/image';
 import { CARD } from '../utility/Card';
 
