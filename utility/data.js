@@ -11,19 +11,19 @@ const MENU = [
      {
         id:2,
         menu:"About",
-        link:"",
+        link:"about",
         Icon:AiOutlineBars
      },
      {
         id:3,
         menu:"Service",
-        link:"",
+        link:"service",
         Icon:GrServices
      },
      {
         id:4,
         menu:"Contact",
-        link:"",
+        link:"contact",
         Icon: AiOutlineUser
      },
     ];
