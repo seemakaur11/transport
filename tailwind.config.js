@@ -11,8 +11,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url('/Images/truck1.jpg')",
-      }
+        'hero-img': "url('/Images/first_word.jpg')",
+      },
+      screens: {
+        'xxs': '200px',
+        'xs': '540px'
+      },
     },
   },
   plugins: [],

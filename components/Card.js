@@ -1,12 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 import CARD from '../utility/cards';
+import { AiFillStar } from "react-icons/ai"
+import SupportCard from './SupportCard';
 
 const Card = () => {
   return (
-    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-16' >
+    <div>
+    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-20' >
       <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6 pb-16'>
-      {CARD.map((data, index) => {
+        {CARD.map((data, index) => {
           return (
             <div key={index} className='group w-full h-72 [perspective:1000px]'>
               <div className='relative h-full w-full transition-all duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
@@ -25,17 +28,55 @@ const Card = () => {
             </div>
           )
         })}
+      </div>
+      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>
+        <div className=''>
+          <h1 className='text-2xl text-[#333333] font-semibold'>JK LOGISTICS</h1>
+          <h1 className='pt-7 text-lg text-[#333333] font-medium'>Fast & safe shipping. Every time. Everywhere.</h1>
         </div>
-
-
-        {/* <div>
-          <Image src={card2} className='w-full h-72' alt="card2" width={350} height={350} />
+        <div className='w-full'>
+          <div className='flex pb-3'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 h-[30px] text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>Careful handling of valuable goods</h1>
+            </div>
+          </div>
+          <div className='flex pb-3'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>Competitive Pricing</h1>
+            </div>
+          </div>
+          <div className='flex'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>24/7 Technical support</h1>
+            </div>
+          </div>
         </div>
-        <div>
-          <Image src={card3} className='w-full h-72' alt="card3" width={350} height={350} />
-        </div> */}
-    
-
+        <div className=''>
+          <div className='flex pb-3'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>GPS tracking solutions</h1>
+            </div>
+          </div>
+          <div className='flex pb-3'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>Hassle free management</h1>
+            </div>
+          </div>
+          <div className='flex'>
+            <span className='bg-[#fac952] text-white rounded-sm p-1 text-lg'><AiFillStar className='' /></span>
+            <div>
+              <h1 className='ml-3 text-[#333333] text-[18px] font-medium'>Minimal processing times</h1>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <SupportCard/> 
     </div>
   )
 }

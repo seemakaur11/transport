@@ -3,7 +3,6 @@ import locofy from "../public/Images/jk-logo.png"
 import Image from 'next/image';
 import Link from "next/link";
 import MENU from '../utility/data';
-import {AiOutlineHome} from "react-icons/ai";;
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +10,6 @@ const Navbar = () => {
   const [active, setActive] = useState(0);
 
   const handleClick = (val, index) => {
-    console.log("val index ===>",val,index)
     setValue(val)
     setActive(index)
   }
