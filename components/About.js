@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-20' >
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-10'>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                         <h1 className='text-3xl text-[#333333] font-medium'>Next Level of Logistic Services</h1>
                         <p className='text-base font-medium text-[#808B8D] py-2'>We are a supply chain solution provider offering services in Road Transportation, Warehousing, C and F. Its a family-owned business and was established by Sobhan Prakash Puvvada in 1984.</p>
                         <p className='text-base font-medium text-[#808B8D]'>M/s. Jayakumari Logistics Pvt. Ltd. started in the name of Jayakumari Enterprises, a Partnership Firm during the year 1985 was registered under the Register of Firms and later the firm converted into Pvt. Ltd.
@@ -30,16 +30,16 @@ const About = () => {
                             Srikalahasti branches in Andra Pradesh and Hyderabad & Secunderabad in Telangana.</p>
 
                     </div>
-                    <div >
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                         <Image src={about} className='w-full h-full' alt="contact" width={550} height={500} />
                     </div>
                 </div>
                 {/* our mission */}
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 pt-16 gap-7'>
-                    <div >
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                         <Image src={mission} className='w-full' alt="contact" width={350} height={350} />
                     </div>
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                         <h1 className='text-2xl text-amber-500 font-medium'>Our Mission</h1>
                         <p className='text-base text-[#808B8D] py-2'>To expand the network of branches by opening new offices, appointing new franchisees, appointing business associates and striking strategic alliances.</p>
                         <p className='text-base text-[#808B8D]'>To build necessary infrastructure across the network.</p>

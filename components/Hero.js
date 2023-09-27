@@ -57,7 +57,7 @@ const Hero = () => {
                             className={`h-full w-full bg-cover bg-center  flex items-center justify-center`}
                             style={{ backgroundImage: slide.img }}
                         >
-                            <div className="text-white text-center">
+                            <div className="text-white text-center" data-aos="fade-up" data-aos-duration="3000">
                                 <h1 className="text-7xl font-bold text-white">{slide.head}</h1>
                                 <p className="text-3xl text-amber-500 font-semibold mt-3">{slide.text}</p>
                             </div>

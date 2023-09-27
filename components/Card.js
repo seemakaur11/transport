@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div>
     <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-20' >
-      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6 pb-16'>
+      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6 pb-16' data-aos="fade-up" data-aos-duration="1000"  data-aos-once="true">
         {CARD.map((data, index) => {
           return (
             <div key={index} className='group w-full h-72 [perspective:1000px]'>
@@ -29,7 +29,7 @@ const Card = () => {
           )
         })}
       </div>
-      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>
+      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6' data-aos="fade-up" data-aos-duration="1000"  data-aos-once="true">
         <div className=''>
           <h1 className='text-2xl text-[#333333] font-semibold'>JK LOGISTICS</h1>
           <h1 className='pt-7 text-lg text-[#333333] font-medium'>Fast & safe shipping. Every time. Everywhere.</h1>

@@ -8,7 +8,7 @@ export const OurClients = () => {
             <div className='text-center'>
                 <h1 className='text-amber-500 text-4xl font-black uppercase'>Meet Our clients</h1>
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 py-14' data-aos="fade-up" data-aos-duration="1000">
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 py-14' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 {
                     GUIDE_INFO.length && GUIDE_INFO.map((data, index) => {
                         const { img, Icon1, Icon2, Icon3, name, info } = data;
