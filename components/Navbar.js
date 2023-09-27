@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import locofy from "../public/Images/jk-logo.png"
+import locofy from "../public/Images/logo.png"
 import Image from 'next/image';
 import Link from "next/link";
 import MENU from '../utility/data';
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className='className="w-full h-20 font-titleFont sticky top-0 bg-[#f5f5f5] z-50 px-4"'>
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
       <Link href="/">
-          <Image src={locofy} className="w-[167px] h-[70px] mr-2" width={100} height={10} alt="Logo" />
+          <Image src={locofy} className="w-full  mr-2" width={125} height={42} alt="Logo" />
         </Link>
         <div className="block lg:hidden">
           <button
