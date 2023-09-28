@@ -11,7 +11,7 @@ const slides = [
   {
     id: 1,
     img: "url('/Images/truck2.jpg')",
-    head: "jk Logistics",
+    head: "dhrisha Logistics",
     text: "We don't just carry your load,we carry your faith",
   },
   {

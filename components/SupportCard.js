@@ -3,7 +3,7 @@ import { SUPPORT } from '../utility/supportCard';
 
 const SupportCard = () => {
   return (
-    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 pb-16'>
+    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 pt-10 pb-16'>
         <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-6 text-center justify-center' data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000"  data-aos-once="true">
             {
                 SUPPORT.map((data,index) =>{

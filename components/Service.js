@@ -8,7 +8,7 @@ const Service = () => {
             <div className='text-center' data-aos="fade-up" data-aos-duration="1000"  data-aos-once="true">
                 <h1 className='text-amber-500 text-4xl font-black'>BEST LOGISTIC SERVICES</h1>
                 <p className='text-[#808B8D] text-lg font-[400] pt-2'>A full range of quality logistic services:
-                    Combine your business expertise and quality products with J K Logistics.
+                    Combine your business expertise and quality products with Dhrisha Logistics.
                 </p>
             </div>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-7 pb-16' data-aos="fade-left" data-aos-duration="1000"  data-aos-once="true">

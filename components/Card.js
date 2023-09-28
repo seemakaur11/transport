@@ -31,7 +31,7 @@ const Card = () => {
       </div>
       <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6' data-aos="fade-up" data-aos-duration="1000"  data-aos-once="true">
         <div className=''>
-          <h1 className='text-2xl text-[#333333] font-semibold'>JK LOGISTICS</h1>
+          <h1 className='text-2xl text-[#333333] font-semibold'>DHRISHA LOGISTICS</h1>
           <h1 className='pt-7 text-lg text-[#333333] font-medium'>Fast & safe shipping. Every time. Everywhere.</h1>
         </div>
         <div className='w-full'>
