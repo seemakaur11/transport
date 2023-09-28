@@ -7,7 +7,7 @@ import SupportCard from './SupportCard';
 const Card = () => {
   return (
     <div>
-    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-20' >
+    <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2' >
       <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6 pb-16' data-aos="fade-up" data-aos-duration="1000"  data-aos-once="true">
         {CARD.map((data, index) => {
           return (
