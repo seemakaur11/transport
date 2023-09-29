@@ -11,7 +11,7 @@ const slides = [
   {
     id: 1,
     img: "url('/Images/truck2.jpg')",
-    head: "dhrisha Logistics",
+    head: "Dhrisha Logistics",
     text: "We don't just carry your load,we carry your faith",
   },
   {
@@ -54,14 +54,14 @@ function Hero() {
           return (
             <SwiperSlide key={index}>
               <div
-                className={`h-full w-full bg-cover bg-center flex items-center justify-center`}
+                className={`w-full h-full bg-cover bg-center bg-no-repeat flex items-center justify-center`}
                 style={{ backgroundImage: slide.img }}
               >
                 <div className="text-white text-center">
-                  <h1 className="text-base md:text-5xl lg:text-7xl font-bold text-white">
+                  <h1 className="text-base sm:text-6xl xxs:text-4xl  lg:text-7xl font-bold text-white">
                     {slide.head}
                   </h1>
-                  <p className="text-base md:text-2xl lg:text-3xl text-amber-500 font-semibold mt-3">
+                  <p className="text-base sm:text-2xl lg:text-3xl text-amber-500 font-semibold mt-3">
                     {slide.text}
                   </p>
                 </div>

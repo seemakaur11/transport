@@ -8,7 +8,7 @@ const OurSolution = () => {
                     <div data-aos="fade-right" data-aos-duration="1000"  data-aos-once="true">
                         <h1 className='text-2xl'>FIRST WORD IN RELIABILITY
                             AND SCM SOLUTION</h1>
-                        <p className='pt-2'>Are you thinking of an innovative, structured, resourceful and dependable source of holistic logistic solutions? Then stop looking for options. Today, MRC is one of the India largest most systematized Logistics Service Providers. Over the years we have evolved to become an integral
+                        <p className='pt-2'>Are you thinking of an innovative, structured, resourceful and dependable source of holistic logistic solutions? Then stop looking for options. Today, Dhrisha Logistics  is one of the India largest most systematized Logistics Service Providers. Over the years we have evolved to become an integral
                             Part of the supply chain of many industries that we cater to.</p>
                            <div className='flex justify-center'>
                            <button className='mt-4 bg-amber-500 font-normal py-2 px-3 text-sm hover:bg-neutral-900'>READ MORE</button>

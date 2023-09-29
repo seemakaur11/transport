@@ -70,11 +70,11 @@ const Navbar = () => {
               })}
           </ul>
         </div>
-        <div>
-          <button className="items-center bg-amber-500 border-0 py-2 px-4 text-white hidden lg:inline-flex">
-            Click Me
+        <Link href='contact'>
+          <button className="items-center bg-amber-500 border-0 font-medium py-2 px-4 text-white hidden lg:inline-flex">
+            Contact Us
           </button>
-        </div>
+        </Link>
       </div>
     </div>
   )

@@ -18,10 +18,10 @@ const About = () => {
             <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 py-20' >
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-10'>
                     <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                        <h1 className='text-3xl text-[#333333] font-medium'>Next Level of Logistic Services</h1>
-                        <p className='text-base font-medium text-[#808B8D] py-2'>We are a supply chain solution provider offering services in Road Transportation, Warehousing, C and F. Its a family-owned business and was established by Sobhan Prakash Puvvada in 1984.</p>
-                        <p className='text-base font-medium text-[#808B8D]'>M/s. Jayakumari Logistics Pvt. Ltd. started in the name of Jayakumari Enterprises, a Partnership Firm during the year 1985 was registered under the Register of Firms and later the firm converted into Pvt. Ltd.
-                            Company in the name of M/s. Jayakumari Logistics Pvt. Ltd. During the year 2013 January,
+                        <h1 className='text-3xl text-amber-500 font-medium'>Next Level of Dhrisha Logistic Services</h1>
+                        <p className='text-base font-medium text-[#808B8D] py-2'>We are a supply chain solution provider offering services in Road Transportation, Warehousing, C and F. Its a family-owned business and was established by Arun Jangra in 1984.</p>
+                        <p className='text-base font-medium text-[#808B8D]'> Dhrisha Logistics Pvt. Ltd. started in the name of Arun Enterprises, a Partnership Firm during the year 1985 was registered under the Register of Firms and later the firm converted into Pvt. Ltd.
+                            Company in the name of Dhrisha Logistics Pvt. Ltd. During the year 2013 January,
                             the company is registered under the Companies Act., The company exclusively engaged in the
                             activity of the transport business and are the transport contractors for Hindustan Coca-Cola
                             products with a turnover of Rs.24 Crs per annum. The company having 120 fleet Trucks of its
