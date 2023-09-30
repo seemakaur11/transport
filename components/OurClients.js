@@ -33,8 +33,10 @@ const slides = [
 export const OurClients = () => {
 
     return (
-        <div>
             <div className='lg:px-28 md:px-24 sm:px-16 xs:px-12 xxs:px-2 pb-16' >
+            <div className='text-center pb-7'>
+                <h1 className='text-amber-500 text-4xl font-black'>OUR CLIENTS</h1>
+                </div>
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-7 text-center justify-center'>
                     {slides.map((slide, index) => {
                         return (
@@ -47,7 +49,5 @@ export const OurClients = () => {
                 </div>
 
             </div>
-            <Map />
-        </div>
     )
 }

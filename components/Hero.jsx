@@ -37,40 +37,47 @@ const slides = [
 import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 function Hero() {
-  return (
-    <div style={{ height: "100vh",width:"100%" }}>
-      <Swiper
-        spaceBetween={30}
-        effect={"fade"}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        loop={true}
-        modules={[EffectFade, Navigation, Pagination]}
-        className="h-[75%] md:h-[70%] lg:h-[80%]"
+    return (
+      <div
+        className="h-[600px] md:h-[300px] lg:h-[580px]"
+        style={{ width: "100%" }}
       >
-        {slides.map((slide, index) => {
-          return (
-            <SwiperSlide key={index}>
-              <div
-                className={`w-full h-full bg-cover bg-center bg-no-repeat flex items-center justify-center`}
-                style={{ backgroundImage: slide.img }}
-              >
-                <div className="text-white text-center">
-                  <h1 className="text-base sm:text-6xl xxs:text-4xl  lg:text-7xl font-bold text-white">
-                    {slide.head}
-                  </h1>
-                  <p className="text-base sm:text-2xl lg:text-3xl text-amber-500 font-semibold mt-3">
-                    {slide.text}
-                  </p>
+        <Swiper
+          spaceBetween={30}
+          lazy={true}
+          style={{
+            "--swiper-navigation-color": "#fff",
+            "--swiper-pagination-color": "#fff",
+          }}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          loop={true}
+          modules={[EffectFade, Navigation, Pagination]}
+          className="mySwiper h-[90%] md:h-[90%] lg:h-[85%]"
+        >
+          {slides.map((slide, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <div
+                  className={`w-full h-full bg-cover bg-center bg-no-repeat flex items-center justify-center`}
+                  style={{ backgroundImage: slide.img }}
+                >
+                  <div className="text-white text-center">
+                    <h1 className="text-base sm:text-6xl xxs:text-2xl lg:text-7xl font-bold text-white">
+                      {slide.head}
+                    </h1>
+                    <p className="text-base sm:text-2xl xxs:text-1xl lg:text-3xl text-amber-500 font-semibold mt-3">
+                      {slide.text}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
   );
 }
 
